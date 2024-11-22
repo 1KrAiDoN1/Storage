@@ -17,3 +17,7 @@ func (r Storage) Set(key string, value string) {
 func (r Storage) Get(key string) string {
 	return r.inner[key]
 }
+
+func f(n int) int {
+	return n * n
+}

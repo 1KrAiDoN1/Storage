@@ -10,5 +10,6 @@ func main() {
 	s.Set("key1", "val1")
 	res := s.Get("key1")
 	fmt.Println(res)
+	fmt.Println("hello")
 
 }
